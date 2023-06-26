@@ -10,7 +10,7 @@ async function main(){
             email: "danielaisabel.s1@colegioadventista.ed.cr.net"
         } 
 
-    });
+    });                                                                                                                                                                                                      
     console.log("Nuevo estudiante creado: ", nuevoestudiante);
     const todosEstudiantes = await prisma.estudiante.findMany();
     console.log("Todos los estudiantes:");
